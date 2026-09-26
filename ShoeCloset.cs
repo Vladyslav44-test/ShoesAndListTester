@@ -14,7 +14,7 @@ namespace ShoesAndListTester
             else
             {
                 Console.WriteLine("\nThe shoe closet contains:");
-                int i = 0;
+                int i = 1;
                 foreach (Shoe shoe in shoes)
                 {
                     Console.WriteLine($"Shoe #{i++}: {shoe.Description}");
